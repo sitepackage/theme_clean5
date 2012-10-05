@@ -1,0 +1,63 @@
+.widgets {
+  background: url('widgets.png') no-repeat;
+}
+.buttons {
+  background: url('buttons.png') no-repeat;
+}
+.banners {
+  background: url('banners.png') no-repeat;
+}
+body{
+	background:url("body_bg.png") repeat-x #fff;
+}
+/* color for main */
+#cart .summary .total_price ,
+#collection .price
+{
+	color: #ff8300;
+}
+#pagination a:hover {
+  color: #ff8300;
+  border: 1px solid #ff8300;
+}
+/* color for bg */
+#bottom_bar_wrapper
+{
+	background-color: #000;
+}
+
+/* color for Link */
+a ,
+#product .description a 
+{
+	color: #000;
+}
+
+/* color for Link hover */
+a:hover ,
+#product .description a:hover
+{
+	color: #ff8300;
+}
+
+
+/* color for header  table*/
+.listing th ,
+#cart .items th {
+	background-color:#f7f7f7;
+	color:#000;
+}
+
+/* color for message */
+#main .message_wrapper {
+	background-color:#fff;
+	border:1px solid #ddd;
+}
+
+/* color for border bottom */
+#frontpage .column li ,
+#blog li ,
+#cart .items td ,
+.listing td {
+	border-bottom:1px dotted #eee;
+}
